@@ -34,6 +34,10 @@ let articles = [
     }
 ]
 
+router.get('/products', (req,res)=>{
+    res.status(200).send("this is the product page");
+})
+
 router.get('/articles', (req,res)=>{
     res.json(articles);
 })
