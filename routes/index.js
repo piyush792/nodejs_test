@@ -19,6 +19,18 @@ let articles = [
         title:'article2',
         content: 'content 2',
         comment: []
+    },
+    {
+        id:3,
+        title:'article3',
+        content: 'content 3',
+        comment: []
+    },
+    {
+        id:4,
+        title:'article4',
+        content: 'content 4',
+        comment: []
     }
 ]
 
